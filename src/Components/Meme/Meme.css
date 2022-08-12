@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: calc(100vh - 70px - 3rem);
+  margin-top: 3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  max-width: 600px;
+}
+
+.memeInputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.memeInput {
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  padding: 0.5rem;
+  width: 48%;
+}
+
+.formButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.formButton {
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #672280 0%, #a626d3 100%);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-image: linear-gradient(to right, #7d299b 0%, #b62be9 100%);
+}
+
+.meme{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  max-width: 600px;
+  margin-top: 1rem;
+}
+
+.memeImage {
+  width: 100%;
+  max-width: 600px;
+  height: fit-content;
+  object-fit: scale-down;
+}
